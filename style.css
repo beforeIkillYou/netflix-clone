@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../img/background.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    overflow-y: hidden;
+}
+
+.img-logo{
+    height: 94px;
+    margin-left: 45px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+#lang{
+    margin-left: 70vw;
+    height: 2vw;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+}
+
+#sign{
+    margin-left: 1vw;
+    background-color: red;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    padding: 0.5vw 1vw;
+    border: none;
+}
+
+#sign:hover{
+    color: #fff;
+    background-color: rgb(150, 24, 24);
+}
+
+
+.upper{
+    padding-bottom: 100px;
+    background-image:linear-gradient(0deg, transparent,black);
+}
+
+.center-heading h1{
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    width: 70vw;
+    padding-left: 15vw;
+}
+
+.center-heading h4{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.center-heading{
+    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.642),transparent);
+    padding-bottom: 11vw ;
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+
+.inputs input{
+    background-color: transparent;
+    color: white;
+    width: 25vw;
+    height: 3.5vw;
+    font-size: 1.5rem;
+    margin-right: 1vw;
+}
+
+.inputs button{
+    width: 12vw;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.inputs button:hover{
+    background-color: rgb(166, 1, 1);
+}
